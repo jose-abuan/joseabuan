@@ -20,8 +20,8 @@ theme = 'PaperMod'
   <img src="/images/personal_portrait.jpeg" alt="Jose Abuan" style="width: 300px; height: 350px; border-radius: 12px; object-fit: cover; border: 2px solid #666; flex-shrink: 0;">
 </div>
 <div style="margin-top: 16px;">
-  <a href="/resume.pdf" target="_blank" rel="noopener" style="color: #7fb0ff; text-decoration: underline;">
-    📄 View my resume (PDF)
+  <a href="/resume.pdf" target="_blank" rel="noopener" style=" text-decoration: underline;">
+    My Experience
   </a>
 </div>
 
