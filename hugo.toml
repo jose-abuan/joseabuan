@@ -19,8 +19,13 @@ theme = 'PaperMod'
   </div>
   <img src="/images/personal_portrait.jpeg" alt="Jose Abuan" style="width: 300px; height: 350px; border-radius: 12px; object-fit: cover; border: 2px solid #666; flex-shrink: 0;">
 </div>
+<div style="margin-top: 16px;">
+  <a href="/resume.pdf" target="_blank" rel="noopener" style="color: #7fb0ff; text-decoration: underline;">
+    📄 View my resume (PDF)
+  </a>
+</div>
+
 """
-[Resume (PDF)](/files/resume.pdf)
 
 [[params.socialIcons]]
     name = "github"
@@ -42,4 +47,7 @@ theme = 'PaperMod'
     url = "mailto:abuanjosel@gmail.com"   
 [[params.socialIcons]]
     name = "rss"
-    url = "/index.xml"
+    url = "feed.xml"
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]

@@ -1,49 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Hikes on </title>
-    <link>http://localhost:1313/hikes/</link>
-    <description>Recent content in Hikes on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2026 10:05:16 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/hikes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Solo Trips are Fun, you should do it more...</title>
-      <link>http://localhost:1313/hikes/decalibross/</link>
-      <pubDate>Wed, 24 Jun 2026 10:05:16 -0600</pubDate>
-      <guid>http://localhost:1313/hikes/decalibross/</guid>
-      <description>&lt;h3 id=&#34;trip-report&#34;&gt;Trip Report&lt;/h3&gt;
-&lt;p&gt;(How was the trail today?)&lt;/p&gt;
-&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
-&lt;p&gt;(Insert summit photo here)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Chasm Lake</title>
-      <link>http://localhost:1313/hikes/chasm-lake/</link>
-      <pubDate>Tue, 24 Mar 2026 15:36:44 -0600</pubDate>
-      <guid>http://localhost:1313/hikes/chasm-lake/</guid>
-      <description>&lt;h3 id=&#34;trip-report&#34;&gt;Trip Report&lt;/h3&gt;
-&lt;p&gt;The hike to Chasm Lake next to longs peak.&lt;/p&gt;
-&lt;figure class=&#34;align-center &#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/gear_layout.jpg#center&#34;
-         alt=&#34;A mountain peak with sparse snow over a hazy morning cloud&#34;/&gt; &lt;figcaption&gt;
-            My gear for this hike
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We started the day off and left from golden at around 4 am and arrived at about 6 at the base of the trailhead. There was already a little bit of first light.&lt;/p&gt;
-&lt;figure class=&#34;align-center &#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/longs_face.jpg#center&#34;
-         alt=&#34;Taken at 14,278 ft during my first winter summit.&#34;/&gt; &lt;figcaption&gt;
-            Mt Meeker&amp;#39;s Left Shoulder&lt;p&gt;Taken at 14,278 ft during my first winter summit.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Very First 14er</title>
-      <link>http://localhost:1313/hikes/mt-blue-sky/</link>
-      <pubDate>Fri, 27 Jun 2025 17:18:24 -0600</pubDate>
-      <guid>http://localhost:1313/hikes/mt-blue-sky/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Hikes on </title>
+		<link>http://localhost:1313/hikes/</link>
+		<description>Recent content in Hikes on </description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Jun 2026 10:05:16 -0600</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/hikes/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Solo Trips are Fun, you should do it more...</title>
+				<link>http://localhost:1313/hikes/decalibross/</link>
+				<pubDate>Wed, 24 Jun 2026 10:05:16 -0600</pubDate>
+				<guid>http://localhost:1313/hikes/decalibross/</guid>
+				<description>&lt;h3 id=&#34;trip-report&#34;&gt;Trip Report&lt;/h3&gt;&#xA;&lt;p&gt;(How was the trail today?)&lt;/p&gt;&#xA;&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;&#xA;&lt;p&gt;(Insert summit photo here)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Chasm Lake</title>
+				<link>http://localhost:1313/hikes/chasm-lake/</link>
+				<pubDate>Tue, 24 Mar 2026 15:36:44 -0600</pubDate>
+				<guid>http://localhost:1313/hikes/chasm-lake/</guid>
+				<description>&lt;h3 id=&#34;trip-report&#34;&gt;Trip Report&lt;/h3&gt;&#xA;&lt;p&gt;The hike to Chasm Lake next to longs peak.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/gear_layout.jpg&#34;&#xA;&#x9;&#x9;&#x9;alt=&#34;A mountain peak with sparse snow over a hazy morning cloud&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;My gear for this hike&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;We started the day off and left from golden at around 4 am and arrived at about 6 at the base of the trailhead. There was already a little bit of first light.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/longs_face.jpg&#34;&#xA;&#x9;&#x9;&#x9;alt=&#34;Taken at 14,278 ft during my first winter summit.&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;Mt Meeker&amp;#39;s Left Shoulder&lt;/h4&gt;&lt;p&gt;Taken at 14,278 ft during my first winter summit.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My Very First 14er</title>
+				<link>http://localhost:1313/hikes/mt-blue-sky/</link>
+				<pubDate>Fri, 27 Jun 2025 17:18:24 -0600</pubDate>
+				<guid>http://localhost:1313/hikes/mt-blue-sky/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

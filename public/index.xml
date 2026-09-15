@@ -1,72 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title></title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2026 21:38:01 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Why you need to &#34;be a spy&#34;</title>
-      <link>http://localhost:1313/posts/be-a-spy/</link>
-      <pubDate>Sat, 01 Aug 2026 21:38:01 -0600</pubDate>
-      <guid>http://localhost:1313/posts/be-a-spy/</guid>
-      <description>&lt;p&gt;Listen to those who share the opposite of your beliefs. To quote Seneca, &amp;ldquo;Read like a spy in the enemy
-s camp&amp;rdquo;. It&amp;rsquo;s time you start hearing it more from other people&amp;rsquo;s perspective. We all live and see life in different lenses. You can learn more about the subject you&amp;rsquo;re passionate about by listening and reading about those you disagree with. Nowadays, we fall into a trap of only seeing the world one-sidedly. Especially with the way the modern world works. Social media and a lot of other mainstream media promote this way of consuming content. The algorithm is built to feed your own desires, reaffirming your beliefs even if it&amp;rsquo;s objectively or subjectively wrong. Making you feel more right about yourself. Another specific example, is through the story of Oddysey (I know, very timely) where the siren plays the &amp;ldquo;things you most want&amp;rdquo;. The Sirens sing a promise of the things that each individual wants, customized to their own desires. So therefore, keep an open mind and an open ear to hear these things from others, it is one of the best ways to learn and grow your wisdom.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Childhood_generations</title>
-      <link>http://localhost:1313/posts/childhood-generations/</link>
-      <pubDate>Sat, 18 Jul 2026 09:02:45 -0600</pubDate>
-      <guid>http://localhost:1313/posts/childhood-generations/</guid>
-      <description>&lt;h1 id=&#34;why-should-we-keep-going-outside&#34;&gt;WHY SHOULD WE KEEP GOING OUTSIDE&lt;/h1&gt;
-&lt;p&gt;We were recently having breakfast as a family when it suddenly crossed my mind how different it was in the 80s. I then asked my father about his childhood. &amp;ldquo;So why is it that people say that the 80s or 90s was the best time to be a child?&amp;rdquo; I asked. He then answered immediately with &amp;ldquo;because that was the last time kids were able to go outside&amp;rdquo;. Followed by his story of a childhood play friend. We laughed at the fact that the kid was the only one that had Atari, and that he was asking other kids for money as a sort of rent-to-play. Lines of kids started lining up to get a chance to play. He clearly understood the concept of supply and demand as a young child.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Solo Trips are Fun, you should do it more...</title>
-      <link>http://localhost:1313/hikes/decalibross/</link>
-      <pubDate>Wed, 24 Jun 2026 10:05:16 -0600</pubDate>
-      <guid>http://localhost:1313/hikes/decalibross/</guid>
-      <description>&lt;h3 id=&#34;trip-report&#34;&gt;Trip Report&lt;/h3&gt;
-&lt;p&gt;(How was the trail today?)&lt;/p&gt;
-&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
-&lt;p&gt;(Insert summit photo here)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Summer 2026</title>
-      <link>http://localhost:1313/posts/summer-2026/</link>
-      <pubDate>Wed, 24 Jun 2026 09:56:14 -0600</pubDate>
-      <guid>http://localhost:1313/posts/summer-2026/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Chasm Lake</title>
-      <link>http://localhost:1313/hikes/chasm-lake/</link>
-      <pubDate>Tue, 24 Mar 2026 15:36:44 -0600</pubDate>
-      <guid>http://localhost:1313/hikes/chasm-lake/</guid>
-      <description>&lt;h3 id=&#34;trip-report&#34;&gt;Trip Report&lt;/h3&gt;
-&lt;p&gt;The hike to Chasm Lake next to longs peak.&lt;/p&gt;
-&lt;figure class=&#34;align-center &#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/gear_layout.jpg#center&#34;
-         alt=&#34;A mountain peak with sparse snow over a hazy morning cloud&#34;/&gt; &lt;figcaption&gt;
-            My gear for this hike
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We started the day off and left from golden at around 4 am and arrived at about 6 at the base of the trailhead. There was already a little bit of first light.&lt;/p&gt;
-&lt;figure class=&#34;align-center &#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/longs_face.jpg#center&#34;
-         alt=&#34;Taken at 14,278 ft during my first winter summit.&#34;/&gt; &lt;figcaption&gt;
-            Mt Meeker&amp;#39;s Left Shoulder&lt;p&gt;Taken at 14,278 ft during my first winter summit.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Very First 14er</title>
-      <link>http://localhost:1313/hikes/mt-blue-sky/</link>
-      <pubDate>Fri, 27 Jun 2025 17:18:24 -0600</pubDate>
-      <guid>http://localhost:1313/hikes/mt-blue-sky/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on </description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 01 Aug 2026 21:38:01 -0600</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Why you need to &#34;be a spy&#34;</title>
+				<link>http://localhost:1313/posts/be-a-spy/</link>
+				<pubDate>Sat, 01 Aug 2026 21:38:01 -0600</pubDate>
+				<guid>http://localhost:1313/posts/be-a-spy/</guid>
+				<description>&lt;p&gt;Listen to those who share the opposite of your beliefs. To quote Seneca, &amp;ldquo;Read like a spy in the enemy&#xA;s camp&amp;rdquo;. It&amp;rsquo;s time you start hearing it more from other people&amp;rsquo;s perspective. We all live and see life in different lenses. You can learn more about the subject you&amp;rsquo;re passionate about by listening and reading about those you disagree with. Nowadays, we fall into a trap of only seeing the world one-sidedly. Especially with the way the modern world works. Social media and a lot of other mainstream media promote this way of consuming content. The algorithm is built to feed your own desires, reaffirming your beliefs even if it&amp;rsquo;s objectively or subjectively wrong. Making you feel more right about yourself. Another specific example, is through the story of Oddysey (I know, very timely) where the siren plays the &amp;ldquo;things you most want&amp;rdquo;. The Sirens sing a promise of the things that each individual wants, customized to their own desires. So therefore, keep an open mind and an open ear to hear these things from others, it is one of the best ways to learn and grow your wisdom.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Childhood_generations</title>
+				<link>http://localhost:1313/posts/childhood-generations/</link>
+				<pubDate>Sat, 18 Jul 2026 09:02:45 -0600</pubDate>
+				<guid>http://localhost:1313/posts/childhood-generations/</guid>
+				<description>&lt;h1 id=&#34;why-should-we-keep-going-outside&#34;&gt;WHY SHOULD WE KEEP GOING OUTSIDE&lt;/h1&gt;&#xA;&lt;p&gt;We were recently having breakfast as a family when it suddenly crossed my mind how different it was in the 80s. I then asked my father about his childhood. &amp;ldquo;So why is it that people say that the 80s or 90s was the best time to be a child?&amp;rdquo; I asked. He then answered immediately with &amp;ldquo;because that was the last time kids were able to go outside&amp;rdquo;. Followed by his story of a childhood play friend. We laughed at the fact that the kid was the only one that had Atari, and that he was asking other kids for money as a sort of rent-to-play. Lines of kids started lining up to get a chance to play. He clearly understood the concept of supply and demand as a young child.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Solo Trips are Fun, you should do it more...</title>
+				<link>http://localhost:1313/hikes/decalibross/</link>
+				<pubDate>Wed, 24 Jun 2026 10:05:16 -0600</pubDate>
+				<guid>http://localhost:1313/hikes/decalibross/</guid>
+				<description>&lt;h3 id=&#34;trip-report&#34;&gt;Trip Report&lt;/h3&gt;&#xA;&lt;p&gt;(How was the trail today?)&lt;/p&gt;&#xA;&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;&#xA;&lt;p&gt;(Insert summit photo here)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Summer 2026</title>
+				<link>http://localhost:1313/posts/summer-2026/</link>
+				<pubDate>Wed, 24 Jun 2026 09:56:14 -0600</pubDate>
+				<guid>http://localhost:1313/posts/summer-2026/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Why do we actually do the things that we do in a certain way?</title>
+				<link>http://localhost:1313/posts/why-do-we-do-things-the-way-we-do-it/</link>
+				<pubDate>Wed, 24 Jun 2026 09:56:14 -0600</pubDate>
+				<guid>http://localhost:1313/posts/why-do-we-do-things-the-way-we-do-it/</guid>
+				<description>&lt;p&gt;I recently was posed a question by my professor during office hours. It was for a class about programming languages. And the question was &amp;ldquo;Why is 1 true and 0 false?&amp;rdquo;. Followed by, &amp;ldquo;Why is it that when you tell this to someone else like a Doctor or a Mathematician, they would say something like &amp;lsquo;huh&amp;rsquo;&amp;rdquo;.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Chasm Lake</title>
+				<link>http://localhost:1313/hikes/chasm-lake/</link>
+				<pubDate>Tue, 24 Mar 2026 15:36:44 -0600</pubDate>
+				<guid>http://localhost:1313/hikes/chasm-lake/</guid>
+				<description>&lt;h3 id=&#34;trip-report&#34;&gt;Trip Report&lt;/h3&gt;&#xA;&lt;p&gt;The hike to Chasm Lake next to longs peak.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/gear_layout.jpg&#34;&#xA;&#x9;&#x9;&#x9;alt=&#34;A mountain peak with sparse snow over a hazy morning cloud&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;My gear for this hike&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;We started the day off and left from golden at around 4 am and arrived at about 6 at the base of the trailhead. There was already a little bit of first light.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/images/longs_face.jpg&#34;&#xA;&#x9;&#x9;&#x9;alt=&#34;Taken at 14,278 ft during my first winter summit.&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;Mt Meeker&amp;#39;s Left Shoulder&lt;/h4&gt;&lt;p&gt;Taken at 14,278 ft during my first winter summit.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My Very First 14er</title>
+				<link>http://localhost:1313/hikes/mt-blue-sky/</link>
+				<pubDate>Fri, 27 Jun 2025 17:18:24 -0600</pubDate>
+				<guid>http://localhost:1313/hikes/mt-blue-sky/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
