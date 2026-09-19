@@ -1,6 +1,6 @@
 +++
 date = '2026-06-24T09:56:14-06:00'
-draft = false 
+draft = true 
 title = 'Why do we actually do the things that we do in a certain way?'
 +++
 
