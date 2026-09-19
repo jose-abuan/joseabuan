@@ -11,13 +11,13 @@ theme = 'PaperMod'
 [params.homeInfoParams]
     Title = "Jose Abuan"
     Content = """
-<div style="display: flex; align-items: flex-start; gap: 20px; text-align: left;">
-  <div style="flex: 1;">
+<div class="home-hero">
+  <div class="home-hero-text">
     Hello World! I'm Jose, I'm passionate at solving problems (and creating new ones). Nowadays, I enjoy looking
     at data and coming up with questions and solutions. When I'm not doing those, you can find me enjoying the outdoors
     or working in the gym.
   </div>
-  <img src="/images/personal_portrait.jpeg" alt="Jose Abuan" style="width: 300px; height: 350px; border-radius: 12px; object-fit: cover; border: 2px solid #666; flex-shrink: 0;">
+  <img src="/images/personal_portrait.jpeg" alt="Jose Abuan" class="home-hero-img">
 </div>
 <div style="margin-top: 16px;">
   <a href="/resume.pdf" target="_blank" rel="noopener" style=" text-decoration: underline;">
