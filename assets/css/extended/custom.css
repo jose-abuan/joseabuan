@@ -194,9 +194,8 @@
 }
 
 .photo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: var(--gap);
+    column-width: 240px;
+    column-gap: var(--gap);
 }
 
 .photo-card {
@@ -205,13 +204,14 @@
     border-radius: var(--radius);
     overflow: hidden;
     border: 1px solid var(--border);
+    margin-bottom: var(--gap);
+    break-inside: avoid;
 }
 
 .photo-card img {
     display: block;
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: auto;
 }
 
 .photo-card-caption {
@@ -224,10 +224,6 @@
 
 @media screen and (max-width: 480px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    }
-
-    .photo-card img {
-        height: 140px;
+        column-width: 140px;
     }
 }
