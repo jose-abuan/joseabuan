@@ -2,6 +2,12 @@ baseURL = 'https://highSpeedcoolGuy.github.io/'
 languageCode = 'en-us'
 theme = 'PaperMod'
 
+[[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+
 [params]
     defaultTheme = "dark" # Perfect for the CS aesthetic
     showCodeCopyButtons = true

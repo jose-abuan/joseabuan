@@ -37,3 +37,148 @@
         aspect-ratio: 6 / 7;
     }
 }
+
+/* Homepage "Writing" — a masonry-style card layout (CSS multi-column, no JS)
+   instead of a uniform date-ordered list. Column count adapts to viewport
+   width on its own, and each card's height is whatever its content needs —
+   a longer title/summary or (later) a cover photo just makes that one card
+   taller, no layout changes required when photos get added to posts. */
+.latest-writing {
+    margin-top: calc(var(--gap) * 2);
+}
+
+.latest-writing-heading {
+    font-size: 20px;
+    margin-bottom: var(--content-gap);
+}
+
+.writing-grid {
+    column-width: 260px;
+    column-gap: var(--gap);
+}
+
+.writing-card {
+    display: block;
+    break-inside: avoid;
+    margin-bottom: var(--gap);
+    padding: var(--gap);
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: transform 0.1s;
+}
+
+.writing-card:active {
+    transform: scale(0.97);
+}
+
+.writing-card .entry-cover {
+    margin: calc(var(--gap) * -1) calc(var(--gap) * -1) var(--gap) calc(var(--gap) * -1);
+}
+
+.writing-card .entry-cover img {
+    border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.writing-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.writing-card-date {
+    font-size: 13px;
+    color: var(--secondary);
+}
+
+.writing-card-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--primary);
+    line-height: 1.35;
+}
+
+.writing-card-summary {
+    font-size: 14px;
+    color: var(--content);
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .writing-grid {
+        column-width: 100%;
+    }
+}
+
+/* Projects page — /projects/, a responsive card grid driven by data/projects.yaml */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--gap);
+    margin-top: var(--content-gap);
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: var(--gap);
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.project-card-title {
+    font-size: 19px;
+    line-height: 1.3;
+}
+
+.project-card-subtitle {
+    font-size: 13px;
+    color: var(--secondary);
+    margin-top: -6px;
+}
+
+.project-card-desc {
+    font-size: 15px;
+    color: var(--content);
+    line-height: 1.5;
+}
+
+.project-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+.tag-pill {
+    font-size: 12px;
+    padding: 3px 9px;
+    background: var(--tertiary);
+    border-radius: 999px;
+    color: var(--primary);
+}
+
+.project-card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.project-card-links a {
+    color: var(--secondary);
+}
+
+.project-card-links a:hover {
+    color: var(--primary);
+}
+
+@media screen and (max-width: 480px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}

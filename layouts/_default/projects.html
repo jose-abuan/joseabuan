@@ -1,0 +1,34 @@
+{{- define "main" }}
+<header class="page-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description | markdownify }}</div>
+    {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">{{ .Content }}</div>
+{{- end }}
+
+<div class="project-grid">
+    {{- range hugo.Data.projects }}
+    <div class="project-card">
+        <h3 class="project-card-title">{{ .title }}</h3>
+        {{- with .subtitle }}<div class="project-card-subtitle">{{ . }}</div>{{- end }}
+        <p class="project-card-desc">{{ .description }}</p>
+        {{- with .tags }}
+        <div class="project-card-tags">
+            {{- range . }}<span class="tag-pill">{{ . }}</span>{{- end }}
+        </div>
+        {{- end }}
+        {{- if or .github .demo }}
+        <div class="project-card-links">
+            {{- with .github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub&nbsp;&#8599;</a>{{- end }}
+            {{- with .demo }}<a href="{{ . }}" target="_blank" rel="noopener">Live demo&nbsp;&#8599;</a>{{- end }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end }}
+</div>
+{{- end }}

@@ -1,0 +1,42 @@
+# Shown on /projects/ as a card grid (layouts/_default/projects.html).
+# github/demo left blank on purpose — fill in real links when you have them,
+# empty strings are just skipped in the template.
+- title: "Quantum Rings Model Predictor"
+  subtitle: "Advanced Software Engineering"
+  description: >
+    Benchmarked GPU/CPU performance across quantum computing backends using the QuantumRings SDK
+    on the Wendian HPC cluster, with a parallelized Slurm array-job pipeline for large-scale runs.
+    Built a regex-based QASM 2.0 parser extracting 71 circuit features to train XGBoost models that
+    predict circuit runtime and peak memory usage, using SHAP-based feature importance analysis to
+    pick the best model.
+  tags: ["Python", "XGBoost", "SHAP", "HPC", "Slurm"]
+  github: ""
+  demo: ""
+
+- title: "Colorado Car Crash Predictor"
+  subtitle: "Advanced Data Science"
+  description: >
+    Flask web application for real-time, route-based crash risk prediction with hotspot analysis,
+    built on CDOT crash data from 2020, 2022, and 2024. Collaborated with a 3-person team on the
+    end-to-end data pipeline and prediction model.
+  tags: ["Python", "Flask", "Data Science"]
+  github: ""
+  demo: ""
+
+- title: "Clue Game"
+  subtitle: "Software Engineering"
+  description: >
+    A digital version of the Clue board game built in Java, developed with Agile practices,
+    version control, and SOLID design principles in a team environment.
+  tags: ["Java", "Agile", "SOLID"]
+  github: ""
+  demo: ""
+
+- title: "Park@Mines"
+  subtitle: ""
+  description: >
+    A computer-vision system that monitors campus parking availability, paired with a full-stack
+    React web app displaying live parking data for campus users.
+  tags: ["Python", "Computer Vision", "React"]
+  github: ""
+  demo: ""

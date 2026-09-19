@@ -1,0 +1,23 @@
+{{- $limit := site.Params.latestWritingCount | default 9 }}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = $pages.ByDate.Reverse }}
+{{- $pages = first $limit $pages }}
+{{- with $pages }}
+<section class="latest-writing">
+    <div class="writing-grid">
+        {{- range . }}
+        <a class="writing-card" href="{{ .Permalink }}">
+            {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+            {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+            <div class="writing-card-body">
+                <span class="writing-card-date">{{ .Date.Format "Jan 2006" }}</span>
+                <span class="writing-card-title">{{ .Title }}</span>
+                {{- if (ne (.Param "hideSummary") true) }}
+                <p class="writing-card-summary">{{ .Summary | plainify | htmlUnescape | truncate 110 }}</p>
+                {{- end }}
+            </div>
+        </a>
+        {{- end }}
+    </div>
+</section>
+{{- end }}
