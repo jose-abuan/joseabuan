@@ -1,0 +1,13 @@
+{{- with .Site.Data.gallery }}
+<section class="photo-gallery">
+    <h2 class="photo-gallery-heading">Photos</h2>
+    <div class="photo-grid">
+        {{- range . }}
+        <a class="photo-card" href="{{ .image }}" target="_blank" rel="noopener">
+            <img src="{{ .image }}" alt="{{ .alt | default "" }}" loading="lazy">
+            {{- with .caption }}<span class="photo-card-caption">{{ . }}</span>{{- end }}
+        </a>
+        {{- end }}
+    </div>
+</section>
+{{- end }}

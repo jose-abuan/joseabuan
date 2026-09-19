@@ -1,4 +1,4 @@
-baseURL = 'https://highSpeedcoolGuy.github.io/'
+baseURL = 'https://joseabuan.com/'
 languageCode = 'en-us'
 theme = 'PaperMod'
 
@@ -6,6 +6,11 @@ theme = 'PaperMod'
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
+    weight = 10
+[[menu.main]]
+    identifier = "about me"
+    name = "About Me"
+    url = ""
     weight = 10
 
 [params]
@@ -46,14 +51,11 @@ theme = 'PaperMod'
     name = "discord"
     url = "https://discordapp.com/users/jose_63032"    
 [[params.socialIcons]]
-    name = "gitlab"
-    url = "https://gitlab.com/highSpeedcoolGuy"
-[[params.socialIcons]]
     name = "email"
     url = "mailto:abuanjosel@gmail.com"   
 [[params.socialIcons]]
     name = "rss"
-    url = "feed.xml"
+    url = "/index.xml"
 [outputs]
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]

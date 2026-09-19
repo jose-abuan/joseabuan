@@ -182,3 +182,52 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* Homepage photo gallery — below "Latest Writing" on /, driven by data/gallery.yaml */
+.photo-gallery {
+    margin-top: calc(var(--gap) * 2);
+}
+
+.photo-gallery-heading {
+    font-size: 20px;
+    margin-bottom: var(--content-gap);
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--gap);
+}
+
+.photo-card {
+    display: block;
+    position: relative;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.photo-card img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.photo-card-caption {
+    display: block;
+    padding: 6px 10px;
+    font-size: 13px;
+    color: var(--content);
+    background: var(--entry);
+}
+
+@media screen and (max-width: 480px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+
+    .photo-card img {
+        height: 140px;
+    }
+}
